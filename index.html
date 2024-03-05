@@ -47,19 +47,18 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <picture class="carousel-item active">
+                <div class="carousel-item active">
                     <!--class h-100 (height: 100%) ajouter à img pour height-->
                     <img class="d-block w-100"
                         srcset="
-                        ./assets/images/slider/ryoji-iwata-320w.webp 320w,
-                        ./assets/images/slider/ryoji-iwata-768w.webp 768w,
+                        ./assets/images/slider/ryoji-iwata-300w.webp 300w,
                         ./assets/images/slider/ryoji-iwata-1140w.webp 1140w,
-                        ./assets/images/slider/ryoji-iwata-1440w.webp 1440w,
+                        ./assets/images/slider/ryoji-iwata-1580w.webp 1580w,
                         ./assets/images/slider/ryoji-iwata-1920w.webp 1920w"
-                        sizes="100vw"
+                        sizes="(max-width: 1200px) 1140px, (max-width: 1919px) 1540px, 1920px"
                         src="./assets/images/slider/ryoji-iwata-1920w.webp"
                         alt="homme qui marche sur un passage piéton"/>
-                </picture>
+                </div>
                 <div class="carousel-item">
                     <img class="d-block w-100 " 
                     srcset="
@@ -95,17 +94,16 @@
             </button>
         </div>
         <section id="about">
-            <picture class="picture left">
+            <div class="picture left">
                 <img 
                 srcset="
-                ./assets/images/nina-400w.webp 400w,
-                ./assets/images/nina-468w.webp 468w,
-                ./assets/images/nina-550w.webp 550w"
-                sizes="(max-width: 1920px) 550px, (min-width: 650px) 468px, 400px"
+                ./assets/images/nina-256w.webp 256w,
+                ./assets/images/nina-560w.webp 560w,
+                ./assets/images/nina-890w.webp 890w"
+                sizes="(min-width: 650px) 468px, 256px"
                 src="./assets/images/nina-400w.webp"
-                loading="lazy"
                 alt="Nina"/>
-            </picture>
+            </div>
             <div id="about-me">
                 <h2 class="about-me__title">A propos de moi</h2>
                 <p class="about-me__introduction">

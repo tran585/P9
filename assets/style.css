@@ -77,18 +77,12 @@ main {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
-	height: fit-content;
 }
 
 .pictures__carousel {
 	width: 100%;
-	height: fit-content;
 }
 
-.picture img {
-	max-width: 100%;
-	height: auto;
-}
 #about-me {
 	flex: 2
 }

@@ -1313,23 +1313,15 @@ progress {
   }
 }
 
-
-
-
 /* ---- */
 @media (min-width: 992px) {
-.col-lg {
-  flex: 1 0 0%;
-}
-
-.col-lg-4 {
-  flex: 0 0 auto;
-  width: 33.33333333%;
-}
-
-.col-xl-4 {
-  flex: 0 0 auto;
-  width: 33.33333333%;
+  .col-lg {
+    flex: 1 0 0%;
+  }
+  .col-xl-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
 }
 
 .fade {

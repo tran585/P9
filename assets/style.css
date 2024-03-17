@@ -105,6 +105,8 @@ body {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
+	display: flex;
+	justify-content: center;
 }
 
 .picture img {
@@ -291,7 +293,7 @@ input[type="submit"] {
 	}
 	.picture img {
 		width: 470px;
-		width: 470px;
+		height: 470px;
 	}
 	#about, #contact .container {
 		align-items: center;
@@ -314,7 +316,7 @@ input[type="submit"] {
 	}
 	.picture img {
 		width: 400px;
-		width: 400px;
+		height: 400px;
 	}
 	.picture.left::before {
 		width: 100%;
@@ -408,13 +410,27 @@ input[type="submit"] {
 	}
 	.picture img {
 		width: 468.8px;
-		width: 467px;
+		height: 467px;
 	}
 }
 
 @media all and (max-width: 520px) {
 	.picture img {
 		width: 365px;
-		width: 365px;
+		height: 365px;
+	}
+}
+
+@media all and (max-width: 445px) {
+	.picture img {
+		width: 292px;
+		height: 292px;
+	}
+}
+
+@media all and (max-width: 320px) {
+	.picture img {
+		width: 205px;
+		height: 205px;
 	}
 }

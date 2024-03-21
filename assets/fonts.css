@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(../assets/fonts/Inter-Regular400.woff) format("woff")
+    src: url(../assets/fonts/Inter-Regular400.woff2) format("woff2")
 }
 
 @font-face {
@@ -11,7 +11,7 @@
     font-style: italic;
     font-weight: 300;
     font-display: swap;
-    src: url(../assets/fonts/Spectral-italic300.woff) format("woff")
+    src: url(../assets/fonts/Spectral-italic300.woff2) format("woff2")
 }
 
 @font-face {
@@ -19,15 +19,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(../assets/fonts/Spectral-normal400.woff) format("woff")
-}
-
-@font-face {
-    font-family: Spectral;
-    font-style: italic;
-    font-weight: 800;
-    font-display: swap;
-    src: url(../assets/fonts/Spectral-italic800.woff) format("woff")
+    src: url(../assets/fonts/Spectral-normal400.woff2) format("woff2")
 }
 
 /* @font-face {
@@ -35,5 +27,5 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(../fonts/Spectral-normal400.woff2) format("woff")
+    src: url(../fonts/Spectral-normal400.woff2) format("woff2")
 } */

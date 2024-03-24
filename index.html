@@ -13,17 +13,14 @@
 
 <body>
     <header class="top-header"> <!--Header à la place de div-->
-        <h1><a class="name" href="./">Nina Carducci</a></h1> <!--Ajout de la balise <a> avec lien de redirection pour recharger la page-->
+		<h1 class="name">Nina Carducci</h1> <!--Ajout de la balise <a> avec lien de redirection pour recharger la page-->
         <div class="nav">
             <ul>
                 <li><a href="#about">À propos</a></li>
                 <li><a href="#gallery">Galerie</a></li>
                 <li><a href="#services">Service</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li>
-                    <a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-                        target="_blank"><img src="assets/images/instagram.webp" width="100%" alt="instagram logo"/></a>
-                </li>
+                <li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="instagram logo"/></a></li>
             </ul>
         </div>
     </header>
@@ -75,16 +72,14 @@
                     fetchpriority="low"/>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <i class="fa-solid fa-chevron-left fa-2x" aria-hidden="true"></i>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <i class="fa-solid fa-chevron-right fa-2x" aria-hidden="true"></i>
-                <span class="visually-hidden">Next</span>
-            </button>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
         </div>
         <section id="about">
             <div class="picture left pictures__carousel">
@@ -148,14 +143,14 @@
             <div class="quote">
                 <figure>
                     <blockquote>
-                        <p class="quote__text">
+                        <h1 class="quote__text">
                             Un portrait n’est pas une ressemblance. Dès lors
                             qu’une émotion ou qu’un fait est traduit en
                             photo, il cesse d’être un fait pour devenir une
                             opinion. L’inexactitude n’existe pas en
                             photographie. Toutes les photos sont exactes.
                             Aucune d’elles n’est la vérité.
-                        </p>
+                        </h1>
                     </blockquote>
                     <figcaption class="quote__author">
                         - Richard Avedon

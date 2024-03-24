@@ -1,3 +1,11 @@
+body {
+	max-width: 1920px;
+	margin: auto;
+}
+* {
+	font-family: 'Inter';
+	font-style: normal;
+}
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -139,7 +147,10 @@
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	line-height: 1.2;
+	margin-bottom: 0.5rem;
+	margin-top: 0;
+	font-size: calc(1.375rem + 1.5vw);
 }
 .quote__author {
 	font-family: Spectral;

@@ -325,6 +325,8 @@ textarea {
 }
 
 .nav {
+  list-style-type: none;
+	font-size: 14px;
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
@@ -861,7 +863,6 @@ textarea {
 .w-100 {
   width: 100% !important;
 }
-
 
 .h-100 {
   height: 100% !important;

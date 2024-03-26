@@ -1,10 +1,11 @@
 * {
-	font-family: 'Inter', sans-serif;
+	font-family: 'Inter';
 	font-style: normal;
 }
 body {
 	max-width: 1920px;
 	margin: auto;
+	font-weight: 400;
 }
 .top-header {
 	background-color: white;

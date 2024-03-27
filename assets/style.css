@@ -36,6 +36,7 @@ body {
 	display: flex;
 	background-color: #F6D2B8;
 	padding-block: 100px;
+	padding-inline: 100px;
 	position: relative;
 }
 
@@ -59,12 +60,11 @@ body {
 }
 
 .picture img {
-	width: 400px;
-	height: 400px;
+	width: 100%;
+	height: 100%;
 }
 #about-me {
 	flex: 2;
-	padding-inline: 100px;
 }
 .about-me__title {
 	margin-top: 1em;
@@ -106,7 +106,6 @@ body {
 	content: "";
 	display: block;
 	padding-bottom: 100%;
-
 }
 .gallery-item {
 	position: absolute;
@@ -238,10 +237,6 @@ input[type="submit"] {
 	.picture {
 		flex : 2;
 	}
-	.picture img {
-		width: 470px;
-		height: 470px;
-	}
 	#about, #contact .container {
 		align-items: center;
 	}
@@ -257,10 +252,10 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
+
 	}
-	.picture img {
-		width: 400px;
-		height: 400px;
+	.picture {
+		width: 50%;
 	}
 	.picture.left::before {
 		width: 100%;
@@ -318,7 +313,7 @@ input[type="submit"] {
 		flex-direction: column;
 		padding-inline: 0;
 	}
-	.top-header .nav, .top-header .nav {
+	.top-header .nav, .top-header .nav ul {
 		width: 100%;
 		padding: 0 0 0 0;
 	}
@@ -336,45 +331,14 @@ input[type="submit"] {
 	.service {
 		max-width: 90%;
 	}
-	#contact {
+	#about, #contact {
 		padding-inline: 2em;
 		padding-block: 2em;
-	}
-	#about {
-		padding-block: 2em;
-	}
-	#about-me {
-		padding-inline: 2em;
 	}
 	form {
 		width: 100%;
 	}
-	.picture img {
-		width: 468.8px;
-		height: 467px;
-	}
-}
-
-@media all and (max-width: 520px) {
-	.picture img {
-		width: 365px;
-		height: 365px;
-	}
-}
-
-@media all and (max-width: 445px) {
-	.picture img {
-		width: 292px;
-		height: 292px;
-	}
-}
-
-@media all and (max-width: 320px) {
-	.picture img {
-		width: 205px;
-		height: 205px;
-	}
-	.nav {
-		flex-wrap: wrap-reverse;
+	.picture {
+		width: 80%;
 	}
 }

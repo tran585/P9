@@ -775,15 +775,6 @@ textarea {
   background-size: 100% 100%;
 }
 
-/* rtl:options: {
-  "autoRename": true,
-  "stringMap":[ {
-    "name"    : "prev-next",
-    "search"  : "prev",
-    "replace" : "next"
-  } ]
-} */
-
 .carousel-indicators {
   position: absolute;
   right: 0;
